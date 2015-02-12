@@ -1,2 +1,2 @@
-# my-first-github-repo
-An initial test repo for A100 Apprentices to use to practice on.
+# Anastasia Kulikova Resume Site
+A personal resume site for Anastasia Kulikova.
