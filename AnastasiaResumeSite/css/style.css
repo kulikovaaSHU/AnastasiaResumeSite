@@ -3,7 +3,7 @@
 background-color: rgba(77,35,140,0.4);
 padding: 6px;
 text-align: center;
-max-width:1400px;
+max-width:1200px;
 margin-left:auto;
 margin-right: auto;
 
@@ -30,7 +30,7 @@ display: inline;
 
 body {
 
-background-image: url('background1.png');
+background-image: url('http://i.imgur.com/BAER3th.jpg');
 color: rgba(238,227,255,1);
 font-family: 'Helvetica';
 font-size: 17px;
@@ -39,7 +39,7 @@ font-size: 17px;
 
 .title {
 
-background-image: url('IMG_6151.jpg');
+background-image: url('http://i.imgur.com/Lgb9HD4.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: 1210px 679px;
@@ -59,7 +59,7 @@ margin-left: 450px;
 .info {
 
 background-color: rgba(77,35,140,0.4);
-max-width:1400px;
+max-width:1200px;
 margin-left: auto;
 margin-right: auto;
 padding: 6px;
