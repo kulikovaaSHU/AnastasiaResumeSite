@@ -1,1 +1,117 @@
-/* All style should go in this document. */
+.nav {
+
+background-color: rgba(77,35,140,0.4);
+padding: 6px;
+text-align: center;
+max-width:1400px;
+margin-left:auto;
+margin-right: auto;
+
+}
+
+.nav a {
+
+color: #FFBABA;
+font-size: 24px;
+font-family: 'Helvetica';
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+.nav li {
+
+display: inline;
+
+}
+
+body {
+
+background-image: url('background1.png');
+color: rgba(238,227,255,1);
+font-family: 'Helvetica';
+font-size: 17px;
+
+}
+
+.title {
+
+background-image: url('IMG_6151.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1210px 679px;
+
+}
+
+.title h1 {
+
+font-size:70px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: rgba(72,41,99,1);
+margin-left: 450px;
+
+}
+
+.info {
+
+background-color: rgba(77,35,140,0.4);
+max-width:1400px;
+margin-left: auto;
+margin-right: auto;
+padding: 6px;
+
+
+}
+
+.info h3 {
+
+margin-left: 10px;
+font-size:24px;
+text-transform: uppercase;
+color: #FFBABA;
+background-color: rgba(38,17,69,0.4);
+padding: 6px;
+
+}
+
+.info h4 {
+
+font-size: 18px;
+
+}
+
+.date {
+
+font-style: italic;
+
+}
+
+.info p, h4{
+
+margin-left: 400px;
+
+}
+
+.info li{
+
+margin-left:400px;
+
+}
+
+.center {
+
+text-align: center;
+
+}
+
+.contacts {
+
+margin-left: 450px;
+color: #6A4A85;
+font-style: bold;
+
+}
