@@ -7,6 +7,7 @@ max-width:1200px;
 margin-left:auto;
 margin-right: auto;
 
+
 }
 
 .nav a {
@@ -31,6 +32,7 @@ display: inline;
 body {
 
 background-image: url('http://i.imgur.com/BAER3th.jpg');
+background-attachment: fixed;
 color: rgba(238,227,255,1);
 font-family: 'Helvetica';
 font-size: 17px;
@@ -39,7 +41,7 @@ font-size: 17px;
 
 .title {
 
-background-image: url('http://i.imgur.com/Lgb9HD4.jpg');
+background-image: url('http://i.imgur.com/VAIOHkw.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: 1210px 679px;
@@ -115,3 +117,4 @@ color: #6A4A85;
 font-style: bold;
 
 }
+
