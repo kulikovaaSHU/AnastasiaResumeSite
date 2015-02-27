@@ -75,7 +75,7 @@ color: rgba(227,14,46,1);
 #box
 {
 
-background-image:url('../img/background.png');
+background-image:url('http://i.imgur.com/ugFUfpX.jpg');
 background-size:100%;
 background-repeat: no-repeat;
 margin:0;
@@ -108,7 +108,7 @@ color: rgba(218,235,202,1);
 #title
 {
 
-background-image: url('../img/photoback.png');
+background-image: url('http://i.imgur.com/VpdAKae.png');
 background-repeat:no-repeat;
 background-size:90%;
 margin-left:10%;
