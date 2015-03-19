@@ -17,6 +17,63 @@ overflow-x:hidden;
 
 }
 
+/* Parallax */
+.parallax {
+	-webkit-perspective: 1px;
+	perspective: 1px;
+	height: 20vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font-size: 200%;
+}
+
+.parallax__layer {
+	position: absolute;
+	padding: 15vh 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.parallax__layer--base {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.parallax__layer--back {
+	-webkit-transform: translateZ(-1px);
+	transform: translateZ(-1px);
+}
+
+.title {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	bottom:60%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#nameFront
+{
+
+	color: rgba(1,1,1,0.3);
+	font-size:80px;
+
+}
+
+#shadow
+{
+
+	color: rgba(46,205,183,1);
+	font-size:80px;
+
+}
+
+
+/* end */
+
 #top a
 {
 
@@ -39,7 +96,7 @@ margin-right:auto;
 margin-left:auto;
 max-width:100%;
 text-align:center;
-background-color: rgba(35,175,200,1);
+background-color: rgba(48,81,113,1);
 padding-top: 10px;
 padding-bottom: 10px;
 
@@ -61,15 +118,14 @@ font-size: 28px;
 padding-left: 3%;
 padding-right: 3%;
 font-weight: bold;
-color: rgba(255,255,255,1);
-text-transform: uppercase;
+color: rgba(233,130,123,1);
 
 }
 
 #nav a:hover
 {
 
-color: rgba(233,130,123,1);
+color: rgba(255,255,255,.9);
 
 }
 
@@ -83,7 +139,7 @@ color: rgba(233,130,123,1);
 #box
 {
 
-background-color: rgba(35,175,200,1);
+background-color: rgba(48,81,113,1);
 background-size:100%;
 background-repeat: no-repeat;
 margin:0;
@@ -103,14 +159,14 @@ color: rgba(255,255,255,1);
 {
 
 font-size:24px;
-color: rgba(255,255,255,.8);
+color: rgba(46,205,183,.7);
 
 }
 
 #contacts a
 {
 
-color: rgba(255,255,255,.8);
+color: rgba(46,205,183,.7);
 
 }
 
@@ -135,6 +191,8 @@ background-color: rgba(233,130,123,1);
 background-color: rgba(255,255,255,1);
 margin-left:auto;
 margin-right: auto;
+background-image: url('http://i.imgur.com/D1DFvNJ.png');
+background-attachment: fixed;
 
 }
 
@@ -271,6 +329,8 @@ font-style: italic;
 
 background-color: rgba(255,255,255,1);
 padding-bottom: 5%;
+background-image: url('http://i.imgur.com/7iy4trc.png');
+background-attachment: fixed;
 
 }
 
@@ -339,7 +399,7 @@ font-size: 17px;
 #bottom
 {
 
-background-color: rgba(233,130,123,1);
+background-color: rgba(46,205,183,1);
 padding:2.5%;
 text-align: center;
 
